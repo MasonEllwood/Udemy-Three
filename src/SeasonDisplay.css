@@ -8,3 +8,26 @@
     bottom: 10px;
     right: 10px;
 }
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.season-display.winter i {
+    color: indianred;
+}
+
+.season-display.summer i {
+    color: cornsilk;
+}
+
+.winter {
+    background-color: aliceblue;
+}
+
+.summer {
+    background-color: aquamarine;
+}
